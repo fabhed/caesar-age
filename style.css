@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Regular.ttf);
+}
+html,
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  /* dark background */
+  background-color: #1a1a1a;
+  /* light text */
+  color: #f2f2f2;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: 60vh;
+  width: auto;
+  /* rounded corners */
+  border-radius: 10px;
+}
